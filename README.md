@@ -69,6 +69,7 @@ The test suite handles them gracefully (using test.fail() or dynamic state asser
 ├── .env.example             # Template for environment variables
 ├── playwright.config.ts     # Global framework configuration
 └── package.json             # NPM dependencies and runner scripts
+```
 
 ## 🤝 Let's Connect!
 
