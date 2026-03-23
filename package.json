@@ -1,11 +1,22 @@
 {
   "name": "playwright",
   "version": "1.0.0",
-  "description": "",
+  "description": "E2E Test Automation Framework using Playwright and TypeScript for Swag Labs",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "test:ui": "npx playwright test --ui",
+    "test:headless": "npx playwright test",
+    "test:report": "npx playwright show-report",
+    "test:login": "npx playwright test tests/Swag_Labs/specs/e2e/LoginPage.spec.ts"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "automation",
+    "testing",
+    "typescript"
+  ],
+  "author": "Tu Nombre/Perfil",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
